@@ -4,20 +4,20 @@
   "version": "${version}",
 
   "name": "Farmer's Cornucopia",
-  "description": "<insert>",
-  "contact": {
-    "email": "devnodevs@protonmail.com",
-    "issues": "<insert>",
-    "sources": "<insert>"
-  },
+  "description": "",
   "authors": [
     "Galaxtone",
     "Starvexia",
     "Undercover"
   ],
+  "contact": {
+    "email": "devnodevs@protonmail.com",
+    "issues": "https://github.com/devnodevs/farmers-cornucopia/issues",
+    "sources": "https://github.com/devnodevs/farmers-cornucopia"
+  },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/farmcopia/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -31,8 +31,5 @@
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "pp"
   }
 }
